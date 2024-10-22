@@ -9,9 +9,9 @@ function App() {
         <p>Welcome to my portfolio website!</p>
         <nav>
           <ul>
-            <li className="side-bars"><a href="#about">About Me</a></li>
-            <li className="side-bars"><a href="#projects">Projects</a></li>
-            <li className="side-bars"><a href="#contact">Contact</a></li>
+            <li><a href="#about" className="side-bars">About Me</a></li>
+            <li><a href="#projects" className="side-bars">Projects</a></li>
+            <li><a href="#contact" className="side-bars">Contact</a></li>
           </ul>
         </nav>
       </header>
