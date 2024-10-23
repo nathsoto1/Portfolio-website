@@ -22,11 +22,18 @@ nav li {
 main {
   padding: 20px;
 }
-
+body{
+  background-color: black;
+}
 footer {
   margin-top: 20px;
   font-size: 0.8em;
 }
 .side-bars {
   color: white;
+}
+.navbar-icons img{
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
 }

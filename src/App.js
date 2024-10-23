@@ -1,10 +1,16 @@
-import React from 'react';
 import './App.css';
+import Banner from './components/Banner'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import React from 'react';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <NavBar />
+      <Banner />
+     {/* <header className="App-header">
         <h1>Nathan's Portfolio</h1>
         <p>Welcome to Nathan's portfolio website!</p>
         <nav>
@@ -31,7 +37,7 @@ function App() {
       </main>
       <footer>
         <p>&copy; {new Date().getFullYear()} Your Name</p>
-      </footer>
+      </footer>  */}
     </div>
   );
 }
