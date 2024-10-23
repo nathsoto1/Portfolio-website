@@ -37,6 +37,18 @@ footer {
   height: 24px;
   margin-left: 10px;
 }
+/* Banner */
+.banner{
+  background-image: url('./assets/wp4855908.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
 .tagline{
   font-size: 1.5rem;
 }
