@@ -14,8 +14,8 @@ export const NavBar = () => {
           <Navbar.Brand href="#home">Nathan's Portfolio</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">Skills</Nav.Link>
-            <Nav.Link href="#about-me">Projects</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav>
           <span className="navbar-icons">
             <div>

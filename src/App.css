@@ -53,7 +53,7 @@ footer {
   font-size: 1.5rem;
 }
 .box{
-  border: 2px soild black;
+  border: 2px solid black;
   padding: 10px;
   margin: 10px;
   background-color: #f0f0f0;
@@ -61,4 +61,28 @@ footer {
 }
 .inside-box{
   text-align: center;
+}
+/* Goku powering up */
+.goku-container{
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 100%
+}
+
+.goku-image{
+  display: block;
+}
+
+.goku-aura{
+  display: absolute;
+  top: -200px;
+  left: -20px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.goku-container:hover .goku-aura{
+  opacity: 1;
 }

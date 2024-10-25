@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Banner />
+     <Banner />
      {/* <header className="App-header">
         <h1>Nathan's Portfolio</h1>
         <p>Welcome to Nathan's portfolio website!</p>

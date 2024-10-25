@@ -1,6 +1,7 @@
 import {Container, Row, Col} from "react-bootstrap";
-import Goku from '../assets/Goku2.png'
+import Goku from '../assets/Goku2.png';
 import { useState, useEffect } from "react";
+import Aura from '../assets/Aura-PNG.png';
 
 export  const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -54,7 +55,11 @@ export  const Banner = () => {
         </div>
       </Col>
       <Col xs={12} md={6} xl={5}>
-        <img src={Goku} alt="Header Img" />
+        <div className="goku-container">
+        <img src={Goku} alt="Goku" className="goku-image" />
+       {/* <img src={Aura} alt="Aura" className="goku-aura" /> */}
+        </div>
+
       </Col> 
       </Row>
     </Container>
